@@ -1,0 +1,26 @@
+# Global fallback
+* @v1truv1us
+
+# CLI entry point
+/cmd/ @v1truv1us
+
+# Provider abstraction
+/pkg/provider/ @v1truv1us
+
+# Agent runtime
+/pkg/agent/ @v1truv1us
+
+# Memory systems
+/pkg/memory/ @v1truv1us
+
+# Evolution engine
+/pkg/evolution/ @v1truv1us
+
+# Workflow engine
+/pkg/workflow/ @v1truv1us
+
+# CI/CD & Docs
+/.github/ @v1truv1us
+*.md @v1truv1us
+SECURITY.md @v1truv1us
+CONTRIBUTING.md @v1truv1us
