@@ -1,0 +1,26 @@
+name: Bug Report
+description: Report a bug in OpenAgent
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: input
+    id: version
+    attributes:
+      label: Go Version
+  - type: dropdown
+    id: component
+    attributes:
+      label: Component
+      options:
+        - Provider
+        - Agent
+        - Memory
+        - Evolution
+        - Workflow
+        - CLI
+  - type: textarea
+    id: description
+    attributes:
+      label: Bug Description
+    validations:
+      required: true
